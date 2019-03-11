@@ -1,0 +1,223 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Jenn's Portfolio</title>
+  <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png" />
+  <!-- RESET CSS-->
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css" media="all" />
+  <!-- BOOTSTRAP (using for columns and responsiveness) -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+    crossorigin="anonymous">
+  <!-- CSS STYLESHEETS -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css" media="all" />
+  <link rel="stylesheet" type="text/css" href="assets/css/media-queries.css" media="all" />
+  <!-- FONTS -->
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Lato:300,,300i,400,400i,900|Rokkitt:200,400,700');
+  </style>
+  <link rel="stylesheet" href="assets/fontello/css/fontello.css">
+  <!-- FANCY EXTRA STUFF (delete what's not needed once I figure out what it is)-->
+  <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+</head>
+
+<body class="full-layout">
+  <!-- Begin Body Wrapper -->
+  <div class="gray-content-wrapper body-wrapper">
+
+    <!-- NAVBAR WITH MODIFIED BOOTSTRAP CODE -->
+    <!-- Begin Header Wrapper -->
+    <div class="header-wrapper">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="index.html">
+            <h3>Jennifer Gingras</h3>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Begin Menu -->
+          <div class="collapse navbar-collapse menu justify-content-end" id="navbarNav">
+            <ul class="navbar-nav tiny">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Design</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="web.html">Web</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+            </ul>
+          </div>
+          <!-- End Menu -->
+        </nav>
+      </div>
+      <!-- End Container -->
+    </div>
+    <!-- End Header Wrapper -->
+
+    <!-- PAGE TITLE -->
+    <!-- Begin Gray Wrapper -->
+    <div class="intro index-intro">
+      <!-- Begin Container-->
+      <div class="container">
+        <h4>You should know that...</h4>
+        <p>I buy too many books and hang out with cats.</p>
+      </div>
+      <!-- End Inner -->
+    </div>
+    <!-- End Gray Wrapper -->
+    <br><br>
+
+    <!-- ABOUT ME SECTION -->
+    <!-- Begin White Wrapper -->
+    <div class="light-wrapper">
+      <!-- Begin Container -->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-sm-12">
+            <img src="./assets/images/computer-cat.jpg" alt="A picture of my cat" />
+            <h5>Hello<span>This is a placeholder picture of my cat.</span></h5>
+          </div>
+          <div class="col-md-8 col-sm-12">
+            <p>
+              From printmaker to graphic designer
+              to
+              web developer, I see each discipline as related.
+              I enjoy the creativity they encourage and the challenges they provide. Whether it's with ink, or words,
+              or
+              code,
+              I'm using my mind and my hands to create and to build something, and that I is what I love to do most.
+              I am most drawn to projects that work to create positive social and/or environmental impact. I have
+              worked
+              for a company
+              in the holistic medicine industry and am currently designing for a start-up which promotes cultural
+              exchange.
+            </p>
+          </div>
+        </div>
+        <br>
+        <hr>
+      </div>
+    </div>
+  </div>
+
+
+  <br>
+  <!-- FORM Begin Content 
+  <div class="container">
+    <div class="content">
+      <!-- Begin Form 
+      <div class="row">
+        <div class="col-md-8 col-sm-12">
+          <div class="form-container">
+            <div class="response"></div>
+            <form class="forms" action="contact/form-handler.php" method="post">
+              <fieldset>
+                <ol>
+                  <li class="form-row text-input-row name-field">
+                    <input type="text" name="name" class="text-input defaultText required" title="Name (Required)" />
+                  </li>
+                  <li class="form-row text-input-row email-field">
+                    <input type="text" name="email" class="text-input defaultText required email" title="Email (Required)" />
+                  </li>
+                  <li class="form-row text-input-row subject-field">
+                    <input type="text" name="subject" class="text-input defaultText" title="Subject" />
+                  </li>
+                  <li class="form-row text-area-row">
+                    <textarea name="message" class="text-area required"></textarea>
+                  </li>
+                  <li class="form-row hidden-row">
+                    <input type="hidden" name="hidden" value="" />
+                  </li>
+                  <li class="button-row">
+                    <input type="submit" value="Submit" name="submit" class="btn-submit" />
+                  </li>
+                </ol>
+                <input type="hidden" name="v_error" id="v-error" value="Required" />
+                <input type="hidden" name="v_email" id="v-email" value="Enter a valid email" />
+              </fieldset>
+            </form>
+          </div>
+        </div>
+        <!-- End Form -->
+
+  <!-- Begin Sidebar -->
+  <div class="col-md-4 col-sm-12">
+    <div class="sidebar">
+      <div class="sidebox">
+        <h3>Feel Free to Connect</h3>
+        <p>We can talk about cats or design or writing or web or even theoretical physics. I love
+          collaborating.
+        </p>
+        <i class="icon-phone contact"></i> 0247 541 65 87 <br />
+        <i class="icon-mail contact"></i> <a href="mailto:support@longwave.com">support@longwave.com</a>
+      </div>
+    </div>
+    <!-- End Sidebar -->
+  </div>
+  </div>
+  </div>
+  </div>
+  <!--End Container -->
+  <br><br>
+
+  <!-- Begin Footer Wrapper -->
+  <div class="footer-wrapper">
+    <!-- Begin Container -->
+    <div class="container">
+      <div class="row">
+        <div class="col-6 widget">
+          <h3 class="widget-title colored">I also like \</h3>
+          <ul>
+            <li>Reading in hammocks and sleeping in tents</li>
+            <li>Traveling with friends</li>
+            <li>Writing novels that don't get finished<li></li>
+            <li>Baking for tea parties</li>
+            <li>Walking/Hiking/Snowshoeing</li>
+          </ul>
+        </div>
+        <div class="col-6 widget">
+          <h3 class="widget-title colored">Other Stuff</h3>
+          <p>You can check out more of my creative endeavors at <a href="https://writefreeordie.org/">Write Free Or
+              Die</a>, where I indulge my writing habit by posting to our group blog.</p>
+        </div>
+      </div>
+    </div>
+    <!-- End Toggle -->
+    <!--<i class="icon-phone contact"></i> 603 657-8990 <br />
+            <i class="icon-mail contact"></i> <a href="jennrgin@gmail.com">jennrgin@gmail.com</a> -->
+  </div>
+  </div>
+  </div>
+  <!-- End Container -->
+  </div>
+  <!-- End Footer Wrapper -->
+
+  <!-- Begin Sub Footer Wrapper -->
+  <div class="subfooter-wrapper">
+    <!-- Begin Container -->
+    <div class="container">
+      <p>© 2019 Jennifer Gingras.</p>
+      <!-- End Container -->
+    </div>
+    <!-- End Sub Footer Wrapper -->
+  </div>
+  <!-- End Body Wrapper -->
+
+  <!-- JAVASCRIPT -->
+  <script type="text/javascript" src="./assets/js/scripts.js"></script>
+  <!-- JQUERY LINKS FROM BOOTSTRAP-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
